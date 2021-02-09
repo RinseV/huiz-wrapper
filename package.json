@@ -1,7 +1,10 @@
 {
   "name": "huiz-wrapper",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "API wrapper for Huiz",
+  "keywords": [
+    "huiz"
+  ],
   "main": "dist/huiz.js",
   "types": "dist/huiz.d.ts",
   "scripts": {
@@ -9,8 +12,7 @@
     "start": "ts-node src/huiz.ts",
     "dev": "ts-node src/index.ts"
   },
-  "keywords": [],
-  "author": "",
+  "author": "RinseV",
   "license": "MIT",
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
@@ -24,5 +26,11 @@
   "dependencies": {
     "date-fns": "^2.16.1",
     "node-fetch": "^2.6.1"
+  },
+  "homepage": "https://github.com/RinseV/huiz-wrapper",
+  "bugs": "https://github.com/RinseV/huiz-wrapper/issues",
+  "repository": {
+    "url": "https://github.com/RinseV/huiz-wrapper",
+    "type": "git"
   }
 }
